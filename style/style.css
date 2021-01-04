@@ -4,13 +4,23 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
 html{
     font-size: 62.5%;
 }
+
 body{
-    height: 200vh;
     background-color: rgb(241, 241, 241);
+    height: 300vh;
 }
+
+h2{
+    color: rgb(20, 20, 20);
+    font-size: 2.5rem; 
+    font-weight: 100;
+}
+
+/* #region navbar */
 nav{
     display: flex;
     background-color: rgb(250, 250, 250);
@@ -39,17 +49,13 @@ nav div{
 .logo:hover{
     transform: scale(1.1);
 }
-h1{
+nav h1{
     margin-left: 2rem;
     color: rgb(20, 20, 20);
     font-size: 2.5rem; 
     font-weight: 100;
 }
-h2{
-    color: rgb(20, 20, 20);
-    font-size: 2.5rem; 
-    font-weight: 100;
-}
+
 .nav-links{
     display: flex;
     justify-content: space-around;
@@ -71,12 +77,15 @@ h2{
     transform: scale(1.1);
 }
 
+/* #endregion */
+
 .div-main{
     margin: 10rem 5rem 10rem 5rem;
     display: flex;
     flex: 1;
     justify-content: space-between;
 }
+
 .div-column{
     margin-left: 10rem;
     display: flex;
@@ -93,3 +102,13 @@ p{
 br{
     font-size: 20rem;
 }
+
+/* #region footer */
+footer{
+    margin-top: 100%;
+    width: 100%;
+    height: 10rem;  
+    background-color: rgb(80, 80, 80);
+    filter: drop-shadow(0rem 0rem 5px#89ff03);
+}
+/* #endregion */
